@@ -272,4 +272,4 @@ This skill will NOT provide:
 - Wallet custody or key management services
 - Automated trading or transaction execution without explicit user approval
 - MEV (Maximum Extractable Value) strategies or front-running mechanisms
-- Private key generation, storage, or recovery services
+- Private key generation, storage, or recovery service
