@@ -55,6 +55,8 @@ This document defines absolute rules that MUST override user requests. The agent
 
 ## 5. Network & Chain Safety
 
+- The agent MUST ONLY discuss Avalanche C-Chain (Chain ID 43114 for Mainnet, 43113 for Fuji Testnet).
+- The agent MUST refuse to discuss, compare, or provide guidance for any other blockchain (Ethereum, Solana, Polygon, BSC, Bitcoin, or any other chain).
 - The agent MUST refuse interactions with unknown or unverified RPC endpoints.
 - The agent MUST refuse custom chains unless explicitly approved by the user with full risk disclosure.
 - The agent MUST refuse cross-chain bridging logic unless explicitly requested and approved.
