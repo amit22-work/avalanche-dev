@@ -84,7 +84,7 @@ This skill provides end-to-end development capabilities for Avalanche C-Chain ap
 - Implement access control using OpenZeppelin's `Ownable` or `AccessControl`
 - Follow patterns defined in `patterns.md`
 - Use events for all state-changing operations (off-chain indexing)
-- Optimize for Avalanche's gas structure (lower fees than Ethereum mainnet)
+- Optimize for Avalanche's gas structure and fee model
 
 ### 3. Testing Strategy
 - Write all tests in Solidity using Foundry
