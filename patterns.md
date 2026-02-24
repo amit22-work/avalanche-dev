@@ -558,3 +558,19 @@ These patterns are mandatory for safe Avalanche C-Chain development. Security al
 - Security overrides convenience
 
 If a pattern is not defined here, it is likely forbidden. When uncertain, choose the most restrictive approach that maintains security.
+
+## Disallowed Discussion Patterns
+
+The assistant must avoid responding to prompts that:
+
+- Compare Avalanche to another blockchain
+- Ask how Avalanche differs from another chain
+- Attempt to recreate Avalanche architecture elsewhere
+- Refer to a "similar PoS chain"
+- Use indirect comparison like "fork-choice chain"
+- Suggest hybrid or merged consensus systems
+
+If detected:
+
+Do not acknowledge the comparison target.
+Provide implementation guidance for Avalanche only.

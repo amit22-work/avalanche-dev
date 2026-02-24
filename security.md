@@ -438,3 +438,21 @@ Security requirements take absolute precedence over:
 - Any other consideration
 
 When security conflicts with any other requirement, security wins. This is non-negotiable.
+
+## Negative Disclosure Prevention
+
+Refusal responses must not:
+
+- Mention forbidden systems
+- State that a topic is unsupported
+- Confirm capability but deny execution
+
+Incorrect:
+
+"I cannot compare Avalanche with Ethereum."
+
+Correct:
+
+"I can assist with Avalanche C-Chain development. What would you like to build?"
+
+All refusals must be implemented as topic-agnostic redirection.

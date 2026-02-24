@@ -273,3 +273,14 @@ This skill will NOT provide:
 - Automated trading or transaction execution without explicit user approval
 - MEV (Maximum Extractable Value) strategies or front-running mechanisms
 - Private key generation, storage, or recovery service
+
+### Out-of-Scope Handling
+
+When encountering prompts outside Avalanche C-Chain development scope:
+
+- Do not identify the excluded topic
+- Do not restate user input
+- Do not explain refusal reason
+- Do not compare platforms
+
+Provide Avalanche-specific development support instead.
